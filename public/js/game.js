@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
   var x = "x" ;
   var o = "o" ;
@@ -70,14 +71,9 @@ $(document).ready(function() {
   
      });
     $("#reset").click(function () {
-    $("#game li").text("+");
-    $("#game li").removeClass('disable')
-    $("#game li").removeClass('o')
-    $("#game li").removeClass('x')
-    $("#game li").removeClass('btn-primary')
-    $("#game li").removeClass('btn-info')
-    count = 0
   
+      location.reload();
+
     });
   });
   
